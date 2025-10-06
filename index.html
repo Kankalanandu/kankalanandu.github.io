@@ -1,317 +1,396 @@
 <!DOCTYPE html>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-Kankala Nandu - Data Science Portfolio
-<link rel="stylesheet" href="./Portfolio_files/style.css"/>
-<canvas id="interactive-background" height="748" width="1536"></canvas>
-<nav class="nav">
-  <div class="nav-container">
-    <div class="nav-logo">
-      <span class="logo-text">KN</span>
-    </div>
-    <ul class="nav-menu">
-      <a class="nav-link" href="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/2e8f3657fb3a4be221034f9f2239cf6e/66f68692-e6d0-41bd-b24d-b34f314292e0/index.html#home">Home</a>
-      <a class="nav-link" href="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/2e8f3657fb3a4be221034f9f2239cf6e/66f68692-e6d0-41bd-b24d-b34f314292e0/index.html#about">About</a>
-      <a class="nav-link" href="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/2e8f3657fb3a4be221034f9f2239cf6e/66f68692-e6d0-41bd-b24d-b34f314292e0/index.html#skills">Skills</a>
-      <a class="nav-link" href="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/2e8f3657fb3a4be221034f9f2239cf6e/66f68692-e6d0-41bd-b24d-b34f314292e0/index.html#projects">Projects</a>
-      <a class="nav-link" href="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/2e8f3657fb3a4be221034f9f2239cf6e/66f68692-e6d0-41bd-b24d-b34f314292e0/index.html#contact">Contact</a>
-    </ul>
-  </div>
-</nav>
-<section class="hero-section" id="home">
-  <div class="hero-3d-elements">
-    <div class="floating-cube" data-speed="0.5"></div>
-    <div class="floating-sphere" data-speed="0.8"></div>
-    <div class="floating-pyramid" data-speed="0.3"></div>
-  </div>
-  <div class="hero-content">
-    <h1 class="hero-title">
-      <span class="title-line" id="animated-name">Kankala Nandu</span>
-      <span class="title-subtitle">3rd Year Data Science Student</span>
-    </h1>
-    <p class="hero-tagline" id="typing-text">Analytics Enthusiast • Data Science Student • ML Explorer</p>
-    <div class="hero-cta">
-      <button class="btn btn--primary explore-btn">
-        Dive Deep
-        <div class="btn-ripple"></div>
-      </button>
-    </div>
-  </div>
-  <div class="scroll-indicator">
-    <div class="scroll-dot"></div>
-    Discover More
-  </div>
-</section>
-<section class="about-section" id="about">
-  <div class="container">
-    <div class="section-header">
-      <h2 class="section-title">About Me</h2>
-      <div class="title-underline"></div>
-    </div>
-    <div class="about-content">
-      <div class="about-avatar">
-        <div class="avatar-container">
-          <div class="avatar-3d" id="interactive-avatar">
-            <div class="avatar-inner">KN</div>
-          </div>
-        </div>
-      </div>
-      <div class="about-text">
-        <p class="about-description">
-          Passionate data science student in my third year, exploring the intersection of statistics,
-          programming, and real-world problem solving. Currently diving deep into machine learning
-          algorithms and their practical applications in business and research.
-        </p>
-        <div class="stats-grid">
-          <div class="stat-item" data-stat="years">
-            <div class="stat-number">3</div>
-            <div class="stat-label">Years Studying</div>
-          </div>
-          <div class="stat-item" data-stat="projects">
-            <div class="stat-number">12</div>
-            <div class="stat-label">Projects Completed</div>
-          </div>
-          <div class="stat-item" data-stat="code">
-            <div class="stat-number">5K+</div>
-            <div class="stat-label">Lines of Code</div>
-          </div>
-          <div class="stat-item" data-stat="datasets">
-            <div class="stat-number">15+</div>
-            <div class="stat-label">Datasets Analyzed</div>
-          </div>
-        </div>
-        <div class="achievements">
-          Recent Achievements
-          <ul>
-            <li>Dean's List - Fall 2024</li>
-            <li>Attended Data Science workshops</li>
-            <li>Python Programming Certification</li>
-            <li>Web Development Webinars Participant</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="skills-section" id="skills">
-  <div class="container">
-    <div class="section-header">
-      <h2 class="section-title">Technical Skills</h2>
-      <div class="title-underline"></div>
-    </div>
-    <div class="skills-content">
-      <div class="skill-category" data-category="data-science">
-        <h3 class="category-title">Data Science &amp; Analytics</h3>
-        <div class="skills-grid">
-          <div class="skill-sphere" data-level="85" data-skill="python">
-            <div class="skill-icon">🐍</div>
-            <div class="skill-name">Python Programming</div>
-            <div class="skill-level">Advanced</div>
-            <div class="skill-details hidden">NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn</div>
-          </div>
-          <div class="skill-sphere" data-level="80" data-skill="statistics">
-            <div class="skill-icon">📊</div>
-            <div class="skill-name">Statistics &amp; Probability</div>
-            <div class="skill-level">Proficient</div>
-          </div>
-          <div class="skill-sphere" data-level="75" data-skill="ml">
-            <div class="skill-icon">🤖</div>
-            <div class="skill-name">Machine Learning</div>
-            <div class="skill-level">Intermediate</div>
-          </div>
-          <div class="skill-sphere" data-level="85" data-skill="visualization">
-            <div class="skill-icon">📈</div>
-            <div class="skill-name">Data Visualization</div>
-            <div class="skill-level">Advanced</div>
-          </div>
-          <div class="skill-sphere" data-level="90" data-skill="pandas">
-            <div class="skill-icon">🐼</div>
-            <div class="skill-name">Pandas &amp; NumPy</div>
-            <div class="skill-level">Expert</div>
-          </div>
-          <div class="skill-sphere" data-level="80" data-skill="sql">
-            <div class="skill-icon">🗃️</div>
-            <div class="skill-name">SQL &amp; Databases</div>
-            <div class="skill-level">Proficient</div>
-          </div>
-        </div>
-      </div>
-      <div class="skill-category" data-category="programming">
-        <h3 class="category-title">Programming &amp; Development</h3>
-        <div class="skills-grid">
-          <div class="skill-sphere" data-level="80" data-skill="git">
-            <div class="skill-icon">📝</div>
-            <div class="skill-name">Git &amp; Version Control</div>
-            <div class="skill-level">Proficient</div>
-          </div>
-          <div class="skill-sphere" data-level="70" data-skill="r">
-            <div class="skill-icon">📊</div>
-            <div class="skill-name">R Programming</div>
-            <div class="skill-level">Intermediate</div>
-          </div>
-          <div class="skill-sphere" data-level="70" data-skill="apis">
-            <div class="skill-icon">🔗</div>
-            <div class="skill-name">API Integration</div>
-            <div class="skill-level">Intermediate</div>
-          </div>
-          <div class="skill-sphere" data-level="75" data-skill="web-dev">
-            <div class="skill-icon">🌐</div>
-            <div class="skill-name">Web Development</div>
-            <div class="skill-level">Intermediate</div>
-          </div>
-        </div>
-      </div>
-      <div class="skill-category" data-category="tools">
-        <h3 class="category-title">Tools &amp; Platforms</h3>
-        <div class="skills-grid">
-          <div class="skill-sphere" data-level="90" data-skill="jupyter">
-            <div class="skill-icon">📓</div>
-            <div class="skill-name">Jupyter Notebooks</div>
-            <div class="skill-level">Expert</div>
-          </div>
-          <div class="skill-sphere" data-level="70" data-skill="tableau">
-            <div class="skill-icon">📊</div>
-            <div class="skill-name">Tableau</div>
-            <div class="skill-level">Intermediate</div>
-          </div>
-          <div class="skill-sphere" data-level="85" data-skill="excel">
-            <div class="skill-icon">📑</div>
-            <div class="skill-name">Excel Advanced</div>
-            <div class="skill-level">Advanced</div>
-          </div>
-          <div class="skill-sphere" data-level="85" data-skill="colab">
-            <div class="skill-icon">☁️</div>
-            <div class="skill-name">Google Colab</div>
-            <div class="skill-level">Advanced</div>
-          </div>
-          <div class="skill-sphere" data-level="80" data-skill="anaconda">
-            <div class="skill-icon">🐍</div>
-            <div class="skill-name">Anaconda</div>
-            <div class="skill-level">Intermediate</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="projects-section" id="projects">
-  <div class="container">
-    <div class="section-header">
-      <h2 class="section-title">Featured Projects</h2>
-      <div class="title-underline"></div>
-    </div>
-    <div class="projects-grid">
-      <div class="project-cube" data-category="Machine Learning">
-        <div class="cube-face front">
-          <div class="project-header">
-            <h3 class="project-title">Student Performance Predictor</h3>
-            <div class="project-category">Machine Learning</div>
-          </div>
-          <p class="project-description">Machine learning model to predict student academic performance using sklearn and pandas with 85% accuracy.</p>
-        </div>
-        <div class="cube-face back">
-          <div class="project-details">
-            Technical Stack
-            <div class="tech-tags">
-              <span class="tech-tag">Python</span>
-              <span class="tech-tag">Scikit-learn</span>
-              <span class="tech-tag">Pandas</span>
-              <span class="tech-tag">Matplotlib</span>
-              <span class="tech-tag">Jupyter</span>
+<!-- saved from url=(0152)https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/2e8f3657fb3a4be221034f9f2239cf6e/66f68692-e6d0-41bd-b24d-b34f314292e0/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kankala Nandu - Data Science Portfolio</title>
+    <link rel="stylesheet" href="./Portfolio_files/style.css">
+</head>
+<body style="opacity: 1; transition: opacity 0.5s;">
+    <canvas id="interactive-background" width="1536" height="748"></canvas>
+    
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">KN</span>
             </div>
-            Duration: 3 months
-            Status: Completed
-          </div>
+            <ul class="nav-menu">
+                <li><a href="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/2e8f3657fb3a4be221034f9f2239cf6e/66f68692-e6d0-41bd-b24d-b34f314292e0/index.html#home" class="nav-link">Home</a></li>
+                <li><a href="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/2e8f3657fb3a4be221034f9f2239cf6e/66f68692-e6d0-41bd-b24d-b34f314292e0/index.html#about" class="nav-link">About</a></li>
+                <li><a href="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/2e8f3657fb3a4be221034f9f2239cf6e/66f68692-e6d0-41bd-b24d-b34f314292e0/index.html#skills" class="nav-link">Skills</a></li>
+                <li><a href="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/2e8f3657fb3a4be221034f9f2239cf6e/66f68692-e6d0-41bd-b24d-b34f314292e0/index.html#projects" class="nav-link">Projects</a></li>
+                <li><a href="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/2e8f3657fb3a4be221034f9f2239cf6e/66f68692-e6d0-41bd-b24d-b34f314292e0/index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
         </div>
-      </div>
-      <div class="project-cube" data-category="Data Visualization">
-        <div class="cube-face front">
-          <div class="project-header">
-            <h3 class="project-title">COVID-19 Data Dashboard</h3>
-            <div class="project-category">Data Visualization</div>
-          </div>
-          <p class="project-description">Interactive dashboard analyzing global COVID-19 trends using Python, Plotly, and real-time APIs.</p>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-3d-elements">
+            <div class="floating-cube" data-speed="0.5" style="transform: translate(-0.39px, -1.57px);"></div>
+            <div class="floating-sphere" data-speed="0.8" style="transform: translate(-0.624px, -2.512px);"></div>
+            <div class="floating-pyramid" data-speed="0.3" style="transform: translate(-0.234px, -0.942px);"></div>
         </div>
-        <div class="cube-face back">
-          <div class="project-details">
-            Technical Stack
-            <div class="tech-tags">
-              <span class="tech-tag">Python</span>
-              <span class="tech-tag">Plotly</span>
-              <span class="tech-tag">Pandas</span>
-              <span class="tech-tag">APIs</span>
-              <span class="tech-tag">Streamlit</span>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-line" id="animated-name" style="opacity: 1;">Kankala Nandu</span>
+                <span class="title-subtitle">3rd Year Data Science Student</span>
+            </h1>
+            <p class="hero-tagline" id="typing-text" style="opacity: 1;">Analytics Enthusiast • Data Science Student • ML Explorer</p>
+            <div class="hero-cta" style="opacity: 1; transform: translateY(0px);">
+                <button class="btn btn--primary explore-btn">
+                    <span>Dive Deep</span>
+                    <div class="btn-ripple"></div>
+                </button>
             </div>
-            Duration: 2 months
-            Status: Completed
-          </div>
         </div>
-      </div>
-      <div class="project-cube" data-category="Data Analysis">
-        <div class="cube-face front">
-          <div class="project-header">
-            <h3 class="project-title">E-commerce Sales Analysis</h3>
-            <div class="project-category">Data Analysis</div>
-          </div>
-          <p class="project-description">Comprehensive analysis of online retail data identifying sales patterns and customer segmentation.</p>
+        <div class="scroll-indicator" style="opacity: 1; transform: translateY(0px);">
+            <div class="scroll-dot"></div>
+            <span>Discover More</span>
         </div>
-        <div class="cube-face back">
-          <div class="project-details">
-            Technical Stack
-            <div class="tech-tags">
-              <span class="tech-tag">Python</span>
-              <span class="tech-tag">Pandas</span>
-              <span class="tech-tag">Seaborn</span>
-              <span class="tech-tag">SQL</span>
-              <span class="tech-tag">Tableau</span>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="title-underline"></div>
             </div>
-            Duration: 6 weeks
-            Status: Completed
-          </div>
+            <div class="about-content">
+                <div class="about-avatar">
+                    <div class="avatar-container">
+                        <div class="avatar-3d" id="interactive-avatar">
+                            <div class="avatar-inner">KN</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p class="about-description">
+                        Passionate data science student in my third year, exploring the intersection of statistics, 
+                        programming, and real-world problem solving. Currently diving deep into machine learning 
+                        algorithms and their practical applications in business and research.
+                    </p>
+                    <div class="stats-grid">
+                        <div class="stat-item" data-stat="years">
+                            <div class="stat-number">3</div>
+                            <div class="stat-label">Years Studying</div>
+                        </div>
+                        <div class="stat-item" data-stat="projects">
+                            <div class="stat-number">12</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-item" data-stat="code">
+                            <div class="stat-number">5K+</div>
+                            <div class="stat-label">Lines of Code</div>
+                        </div>
+                        <div class="stat-item" data-stat="datasets">
+                            <div class="stat-number">15+</div>
+                            <div class="stat-label">Datasets Analyzed</div>
+                        </div>
+                    </div>
+                    <div class="achievements">
+                        <h4>Recent Achievements</h4>
+                        <ul>
+                            <li>Dean's List - Fall 2024</li>
+                            <li>Attended Data Science workshops</li>
+                            <li>Python Programming Certification</li>
+                            <li>Web Development Webinars Participant</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="contact-section" id="contact">
-  <div class="container">
-    <div class="section-header">
-      <h2 class="section-title">Get In Touch</h2>
-      <div class="title-underline"></div>
-    </div>
-    <div class="contact-content">
-      <div class="contact-info">
-        <div class="holographic-console">
-          <div class="console-screen">
-            <div class="console-line"><span class="console-prompt">&gt;</span><span class="console-text">23wj1a6735@gniindia.org</span></div>
-            <div class="console-line"><span class="console-prompt">&gt;</span><span class="console-text">+91 8341633747</span></div>
-            <div class="console-line"><span class="console-prompt">&gt;</span><span class="console-text">Hyderabad</span></div>
-            <div class="console-line"><span class="console-prompt">&gt;</span><span class="console-text">Guru Nanak Institutions Technical campus  - Class of 2027</span></div>
-          </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skill-category" data-category="data-science">
+                    <h3 class="category-title">Data Science &amp; Analytics</h3>
+                    <div class="skills-grid">
+                        <div class="skill-sphere" data-skill="python" data-level="85">
+                            <div class="skill-icon">🐍</div>
+                            <div class="skill-name">Python Programming</div>
+                            <div class="skill-level">Advanced</div>
+                            <div class="skill-details hidden">
+                                <p>NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn</p>
+                            </div>
+                        </div>
+                        <div class="skill-sphere" data-skill="statistics" data-level="80">
+                            <div class="skill-icon">📊</div>
+                            <div class="skill-name">Statistics &amp; Probability</div>
+                            <div class="skill-level">Proficient</div>
+                        </div>
+                        <div class="skill-sphere" data-skill="ml" data-level="75">
+                            <div class="skill-icon">🤖</div>
+                            <div class="skill-name">Machine Learning</div>
+                            <div class="skill-level">Intermediate</div>
+                        </div>
+                        <div class="skill-sphere" data-skill="visualization" data-level="85">
+                            <div class="skill-icon">📈</div>
+                            <div class="skill-name">Data Visualization</div>
+                            <div class="skill-level">Advanced</div>
+                        </div>
+                        <div class="skill-sphere" data-skill="pandas" data-level="90">
+                            <div class="skill-icon">🐼</div>
+                            <div class="skill-name">Pandas &amp; NumPy</div>
+                            <div class="skill-level">Expert</div>
+                        </div>
+                        <div class="skill-sphere" data-skill="sql" data-level="80">
+                            <div class="skill-icon">🗃️</div>
+                            <div class="skill-name">SQL &amp; Databases</div>
+                            <div class="skill-level">Proficient</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-category="programming">
+                    <h3 class="category-title">Programming &amp; Development</h3>
+                    <div class="skills-grid">
+                        <div class="skill-sphere" data-skill="git" data-level="80">
+                            <div class="skill-icon">📝</div>
+                            <div class="skill-name">Git &amp; Version Control</div>
+                            <div class="skill-level">Proficient</div>
+                        </div>
+                        <div class="skill-sphere" data-skill="r" data-level="70">
+                            <div class="skill-icon">📊</div>
+                            <div class="skill-name">R Programming</div>
+                            <div class="skill-level">Intermediate</div>
+                        </div>
+                        <!--
+                        <div class="skill-sphere" data-skill="web-scraping" data-level="75">
+                            <div class="skill-icon">🕷️</div>
+                            <div class="skill-name">Web Scraping</div>
+                            <div class="skill-level">Intermediate</div>
+                        </div>
+                        -->
+                        <div class="skill-sphere" data-skill="apis" data-level="70">
+                            <div class="skill-icon">🔗</div>
+                            <div class="skill-name">API Integration</div>
+                            <div class="skill-level">Intermediate</div>
+                        </div>
+                        <div class="skill-sphere" data-skill="web-dev" data-level="75">
+                            <div class="skill-icon">🌐</div>
+                            <div class="skill-name">Web Development</div>
+                            <div class="skill-level">Intermediate</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-category="tools">
+                    <h3 class="category-title">Tools &amp; Platforms</h3>
+                    <div class="skills-grid">
+                        <div class="skill-sphere" data-skill="jupyter" data-level="90">
+                            <div class="skill-icon">📓</div>
+                            <div class="skill-name">Jupyter Notebooks</div>
+                            <div class="skill-level">Expert</div>
+                        </div>
+                        <div class="skill-sphere" data-skill="tableau" data-level="70">
+                            <div class="skill-icon">📊</div>
+                            <div class="skill-name">Tableau</div>
+                            <div class="skill-level">Intermediate</div>
+                        </div>
+                        <div class="skill-sphere" data-skill="excel" data-level="85">
+                            <div class="skill-icon">📑</div>
+                            <div class="skill-name">Excel Advanced</div>
+                            <div class="skill-level">Advanced</div>
+                        </div>
+                        <div class="skill-sphere" data-skill="colab" data-level="85">
+                            <div class="skill-icon">☁️</div>
+                            <div class="skill-name">Google Colab</div>
+                            <div class="skill-level">Advanced</div>
+                        </div>
+                        <div class="skill-sphere" data-skill="anaconda" data-level="80">
+                            <div class="skill-icon">🐍</div>
+                            <div class="skill-name">Anaconda</div>
+                            <div class="skill-level">Intermediate</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="social-links-3d">
-          <a class="social-link-3d" data-social="linkedin" href="https://linkedin.com/in/kankalanandu" target="_blank">
-            <span class="social-icon">💼</span>
-            <span class="social-name">LinkedIn</span>
-          </a>
-          <a class="social-link-3d" data-social="github" href="https://github.com/kankalanandu" target="_blank">
-            <span class="social-icon">🐙</span>
-            <span class="social-name">GitHub</span>
-          </a>
-          <a class="social-link-3d" data-social="kaggle" href="https://kaggle.com/kankalanandu" target="_blank">
-            <span class="social-icon">🏆</span>
-            <span class="social-name">Kaggle</span>
-          </a>
-          <a class="social-link-3d" data-social="email" href="mailto:23wj1a6735@gniindia.org">
-            <span class="social-icon">📧</span>
-            <span class="social-name">Email</span>
-          </a>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-cube" data-category="Machine Learning">
+                    <div class="cube-face front">
+                        <div class="project-header">
+                            <h3 class="project-title">Student Performance Predictor</h3>
+                            <div class="project-category">Machine Learning</div>
+                        </div>
+                        <p class="project-description">
+                            Machine learning model to predict student academic performance using sklearn and pandas with 85% accuracy.
+                        </p>
+                    </div>
+                    <div class="cube-face back">
+                        <div class="project-details">
+                            <h4>Technical Stack</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Scikit-learn</span>
+                                <span class="tech-tag">Pandas</span>
+                                <span class="tech-tag">Matplotlib</span>
+                                <span class="tech-tag">Jupyter</span>
+                            </div>
+                            <p><strong>Duration:</strong> 3 months</p>
+                            <p><strong>Status:</strong> Completed</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-cube" data-category="Data Visualization">
+                    <div class="cube-face front">
+                        <div class="project-header">
+                            <h3 class="project-title">COVID-19 Data Dashboard</h3>
+                            <div class="project-category">Data Visualization</div>
+                        </div>
+                        <p class="project-description">
+                            Interactive dashboard analyzing global COVID-19 trends using Python, Plotly, and real-time APIs.
+                        </p>
+                    </div>
+                    <div class="cube-face back">
+                        <div class="project-details">
+                            <h4>Technical Stack</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Plotly</span>
+                                <span class="tech-tag">Pandas</span>
+                                <span class="tech-tag">APIs</span>
+                                <span class="tech-tag">Streamlit</span>
+                            </div>
+                            <p><strong>Duration:</strong> 2 months</p>
+                            <p><strong>Status:</strong> Completed</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-cube" data-category="Data Analysis">
+                    <div class="cube-face front">
+                        <div class="project-header">
+                            <h3 class="project-title">E-commerce Sales Analysis</h3>
+                            <div class="project-category">Data Analysis</div>
+                        </div>
+                        <p class="project-description">
+                            Comprehensive analysis of online retail data identifying sales patterns and customer segmentation.
+                        </p>
+                    </div>
+                    <div class="cube-face back">
+                        <div class="project-details">
+                            <h4>Technical Stack</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Pandas</span>
+                                <span class="tech-tag">Seaborn</span>
+                                <span class="tech-tag">SQL</span>
+                                <span class="tech-tag">Tableau</span>
+                            </div>
+                            <p><strong>Duration:</strong> 6 weeks</p>
+                            <p><strong>Status:</strong> Completed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="contact-form-container">
-        <form id="contactForm" class="contact-form" action="https://formspree.io/f/xeoldvnn" method="POST">
-          <div class="form-group">
-            <label class="form-label" for="name">Name</label>
-            <input class="form-control" id="name" name="name" type="text" required/>
-            <div class="input-feedback"></div>
-          </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="holographic-console">
+                        <div class="console-screen">
+                            <div class="console-line">
+                                <span class="console-prompt">&gt;</span>
+                                <span class="console-text">23wj1a6735@gniindia.org</span>
+                            </div>
+                            <div class="console-line">
+                                <span class="console-prompt">&gt;</span>
+                                <span class="console-text">+91 8341633747</span>
+                            </div>
+                            <div class="console-line">
+                                <span class="console-prompt">&gt;</span>
+                                <span class="console-text">Hyderabad</span>
+                            </div>
+                            <div class="console-line">
+                                <span class="console-prompt">&gt;</span>
+                                <span class="console-text">Guru Nanak Institutions Technical campus  - Class of 2027</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links-3d">
+                        <a href="https://linkedin.com/in/kankalanandu" target="_blank" class="social-link-3d" data-social="linkedin">
+                            <span class="social-icon">💼</span>
+                            <span class="social-name">LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/kankalanandu" target="_blank" class="social-link-3d" data-social="github">
+                            <span class="social-icon">🐙</span>
+                            <span class="social-name">GitHub</span>
+                        </a>
+                        <a href="https://kaggle.com/kankalanandu" target="_blank" class="social-link-3d" data-social="kaggle">
+                            <span class="social-icon">🏆</span>
+                            <span class="social-name">Kaggle</span>
+                        </a>
+                        <a href="mailto:23wj1a6735@gniindia.org" class="social-link-3d" data-social="email">
+                            <span class="social-icon">📧</span>
+                            <span class="social-name">Email</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm" action="https://formspree.io/f/xeoldvnn" method="POST">
+                        <div class="form-group">
+                            <label class="form-label" for="name">Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required="">
+                            <div class="input-feedback"></div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" required="">
+                            <div class="input-feedback"></div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-control" required="">
+                            <div class="input-feedback"></div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="message">Message</label>
+                            <textarea id="message" name="message" class="form-control" rows="5" required=""></textarea>
+                            <div class="input-feedback"></div>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width submit-btn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-loader hidden">Sending...</span>
+                            <div class="btn-ripple"></div>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cursor Follower -->
+    <div class="cursor-follower" id="cursor-follower" style="left: 719px; top: 207px;"></div>
+
+    <script src="./Portfolio_files/app.js"></script>
+
+</body></html>
